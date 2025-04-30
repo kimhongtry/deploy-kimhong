@@ -1,6 +1,9 @@
 import React from "react";
 
-const CallToActionVideoBlock: React.FC = () => {
+// Define props interface (currently empty)
+interface CallToActionVideoBlockProps {}
+
+const CallToActionVideoBlock: React.FC<CallToActionVideoBlockProps> = () => {
   return (
     <section
       className="bg-pink-600 call_to_action_video_block pb-[80px] md:pb-[140px] xl:pb-[120px] snap-start"
@@ -10,7 +13,7 @@ const CallToActionVideoBlock: React.FC = () => {
       }}
     >
       <div className="px-[20px] md:px-[40px] xl:px-[30px] flex flex-col items-center gap-[40px] text-white text-center">
-        {/* Title /}
+        {/* Title */}
         <div className="max-w-5xl mt-10 order-1">
           <h1 className="text-center font-bold text-white text-6xl">
             Made With LOVE.
@@ -21,15 +24,7 @@ const CallToActionVideoBlock: React.FC = () => {
           </p>
         </div>
 
-        {/ Description /}
-        {/ <div className="text-white text-2xl">
-          <p>
-            Charlene, Simon and their team of double Emmy® winning storytellers
-            craft every story from scratch.
-          </p>
-        </div> /}
-
-        {/ Image */}
+        {/* Image */}
         <div className="order-2 md:order-4">
           <img
             alt="Team crafting stories with love"
@@ -39,7 +34,12 @@ const CallToActionVideoBlock: React.FC = () => {
             decoding="async"
             className="bg-transparent aspect-[--ratio]"
             src="https://assets.sooperbooks.com/home-pics/8eb21ddb-7315-45a6-9f39-6175927fcaebteam.1098xauto.webp"
-            style={{ color: "transparent", "--ratio": "1098 / 668" }}
+            style={
+              {
+                color: "transparent",
+                "--ratio": "1098 / 668",
+              } as React.CSSProperties
+            }
           />
         </div>
       </div>
