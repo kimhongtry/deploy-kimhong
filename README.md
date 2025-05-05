@@ -1,54 +1,71 @@
 # React + TypeScript + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# 🌟 Fairytale
 
-Currently, two official plugins are available:
+Fairytale is a whimsical, story-rich website designed to bring the magic of fairy tales to life. Whether you're a reader, writer, or dreamer, Fairytale invites you to explore interactive stories, create your own, and immerse yourself in a world of imagination.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 📖 Table of Contents 
 
-## Expanding the ESLint configuration
+* [Introduction](https://markdownlivepreview.com/)
+* [Project Overview ](https://markdownlivepreview.com/)
+* [Technologies Used ](https://markdownlivepreview.com/)
+* [Setup & Installation ](https://markdownlivepreview.com/)
+* [Branching Strategy](https://markdownlivepreview.com/)
+* [Git Workflow ](https://markdownlivepreview.com/)
+* [Pull Request & Merge ](https://markdownlivepreview.com/)
+* [Conflict Resolution Contributing ](https://markdownlivepreview.com/)
+* [License ](https://markdownlivepreview.com/)
+* [Next Steps](https://markdownlivepreview.com/)
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+## 📌 Introduction 
 
-```js
-export default tseslint.config({
-  extends: [
-    // Remove ...tseslint.configs.recommended and replace with this
-    ...tseslint.configs.recommendedTypeChecked,
-    // Alternatively, use this for stricter rules
-    ...tseslint.configs.strictTypeChecked,
-    // Optionally, add this for stylistic rules
-    ...tseslint.configs.stylisticTypeChecked,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+Welcome to the  🌟 Introduction
+Fairytale is a storytelling platform designed to enchant users with immersive, interactive fairy tales. It blends traditional narrative charm with modern web technologies, allowing users to read, create, and share magical stories in a visually rich and engaging environment. Whether you're a child at heart, an aspiring writer, or just love a good story, Fairytale offers a space to explore the world of fantasy like never before.
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+## 🔖Project Overview 
 
-export default tseslint.config({
-  plugins: {
-    // Add the react-x and react-dom plugins
-    'react-x': reactX,
-    'react-dom': reactDom,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended typescript rules
-    ...reactX.configs['recommended-typescript'].rules,
-    ...reactDom.configs.recommended.rules,
-  },
-})
-```
+📘 Project Overview
+Fairytale is a web-based platform that brings fairy tales to life through interactive storytelling. The goal of the project is to create an engaging space where users can:
+
+* Read beautifully presented fairy tales enhanced with visuals and sound
+
+* Write and publish their own original stories
+
+* Customize characters, settings, and plot elements
+
+* Interact with a creative community of readers and writers
+
+The platform is designed with accessibility and user experience in mind, making it easy to navigate whether you're on a desktop or mobile device. It combines creative storytelling with modern web development practices to deliver a magical user experience.
+
+
+
+
+
+## 🔐 Technologies Used 
+
+
+The project leverages the following tools and technologies:
+
+
+
+
+
+| Technology    | Version       |
+| ------------- |:-------------:|
+| Git           | 2.39+         |
+| GitHub        | Latest        |
+| Markdown      | N/A           |
+
+Additionally, you will use GitHub's pull request and issue tracking features for collaboration an conflict resolution. 
+
+## 💻 Setup & Installation 
+
+To get started with the project, follow these steps to clone the repository, set up your development environment, and begin working with Git.
+
+## Step 1: Clone the Repository
+
+Clone the project to your local machine:
+
+```bash
+https://github.com/kimhongtry/deploy-kimhong
